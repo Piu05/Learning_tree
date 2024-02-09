@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    background-color: #ECF39E;
+}
+img{
+    height: 6rem;
+}
+.heading{
+    font-weight: bold;
+    font-family: Indie flower;
+    font-size: 4.5rem;
+    color:#633A00;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    height: 8%;
+    padding-top: 15px;
+}
+.home-body{
+    height: 10%;
+    display:flex;
+}
+.home-text{
+    font-size: 2.5rem;
+    font-family: 'Satisfy', cursive;
+    color: #204620;
+    padding-top: 5%;
+    padding-left: 3%;
+    width:40%;
+    height: 80px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow{
+        from {
+          text-shadow: 0 0 10px #8bc15c,  0 0 30px #000000,
+                       0 0 50px #112411, 0 0 60px #457a3e, 0 0 80px #112411;
+        }
+        to {
+          text-shadow: 0 0 20px #eeeeee, 0 0 40px #8bc15c,
+                       0 0 60px #112411, 0 0 80px #112411;
+}
+}
+.soil{
+    position: absolute;
+    background-color: #c29d6b;
+    width:100%;
+    height:150px;
+    bottom:0px;
+}
+.seedling{
+    position: absolute;
+    height:20rem;
+    right:20px;
+    bottom:5px;
+    /* opacity:0; */
+    z-index:2;
+    animation:sprout 4s;
+    /* animation-delay: 1ms; */
+}
+@keyframes sprout{
+    0%{
+        /* visibility: hidden; */
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        /* visibility: visible; */
+        opacity: 1;
+    }
+}
+.seed{
+    position:absolute;
+    height: 4rem;
+    right: 10rem;
+    bottom: 20rem;
+    z-index:1;
+    animation: fall 3s;
+}
+.seed-box{
+    position:absolute;
+    background-color: #633A00;
+    color:#ECF39E;
+    height: 2.5rem;
+    right: 9rem;
+    bottom: 20rem;
+    padding: 10px;
+    border:1px solid #633A00;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    z-index:2;
+}
+@keyframes fall{
+    0%{
+        transform: rotate(45deg);
+        bottom:20rem;
+    }
+    50%{
+        transform: rotate(10deg);
+        bottom:15rem;
+        opacity: 1;
+    }
+    75%{
+        transform: rotate(45deg);
+        bottom:10rem;
+    }
+    100%{
+        transform: rotate(10deg);
+        bottom:7rem;
+        opacity: 0;
+    }
+}
+.next-button{
+    position: absolute;
+    height: 3rem;
+    width: 6rem;
+    bottom: 20px;
+    right:30px;
+    font-size: 25px;
+    background-color:#633A00;
+    color: #ECF39E;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid #633A00;
+    border-radius: 15%;
+    /* display: none; */
+    z-index:2;
+}
