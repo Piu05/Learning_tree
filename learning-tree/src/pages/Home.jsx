@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "../css/Home.css";
 import logo from "../pics/treelogo.gif";
 import seed from "../pics/seed.png";
+import seedbox from "../pics/seedbox.jpg";
 import seedling from "../pics/seedling.png";
+import { Link } from "react-router-dom";
 
 function Home(){
     const[isOver,setIsOver]=useState(false);
@@ -20,7 +22,7 @@ function Home(){
             <p className="home-text">
               Let's start your DSA journey by planting a seedling{" "}
             </p>
-            <div className="seed-box">Seed Box</div>
+            <img className="seed-box" src={seedbox}/>
             <img className="seed" src={seed} alt="seed" />
             <img
               className="seedling"
@@ -33,7 +35,9 @@ function Home(){
             <div className="soil"></div>
             {isOver?
             (
-            <button className="next-button"> Next </button>):(<div/>)}
+              <Link to="/Early">
+            <button className="next-button"> Next </button>
+            </Link>):(<div/>)}
           </div>
         </div>
       </>

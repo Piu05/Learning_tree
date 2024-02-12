@@ -47,6 +47,7 @@ img{
 .soil{
     position: absolute;
     background-color: #c29d6b;
+    background-image: linear-gradient(#c29d6b,#633A00);
     width:100%;
     height:150px;
     bottom:0px;
@@ -84,15 +85,9 @@ img{
 }
 .seed-box{
     position:absolute;
-    background-color: #633A00;
-    color:#ECF39E;
-    height: 2.5rem;
-    right: 9rem;
-    bottom: 20rem;
-    padding: 10px;
-    border:1px solid #633A00;
-    border-radius: 10%;
-    font-size: 1.5rem;
+    height: 5.5rem;
+    right: 9.5rem;
+    bottom: 20.5rem;
     z-index:2;
 }
 @keyframes fall{
@@ -122,6 +117,7 @@ img{
     bottom: 20px;
     right:30px;
     font-size: 25px;
+    cursor: pointer;
     background-color:#633A00;
     color: #ECF39E;
     padding-left:10px;

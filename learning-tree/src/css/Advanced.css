@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap");
+body {
+  background-color: #ecf39e;
+}
+.heading {
+  font-weight: bold;
+  font-family: Indie flower;
+  font-size: 4.5rem;
+  color: #633a00;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  height: 8%;
+  padding-top: 15px;
+}
+.advanced-box {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate( -50%);
+  height: 26rem;
+  width: 60rem;
+  background-color: #457a3e;
+  border-radius:2%;
+  display:flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.adv-img{
+  position: absolute;
+    height: 22rem;
+    z-index: 2;
+    bottom: 20px;
+    right: 25px;
+}
+
+.advanced-box .advanced-content{
+  display:flex;
+  flex-direction: column;
+  width:40rem;
+  padding-left: 10px;
+}
+.checkbox{
+  color:#ECF39E;
+  font-size: 2rem;
+  width:200px;
+}
+ul{
+  margin-left:20px;
+  margin-top: 10px;
+  
+}
+ul li{
+  margin: 0;
+  position: relative;
+  display: inline;
+  float: left
+  
+}
+ul li a{
+  text-decoration: none;
+  color:#ECF39E;
+  display: block;
+  padding: 2px 8px;
+}
+input{
+  height: 22px;
+  width: 22px;
+}
+.next-button{
+  position: absolute;
+  height: 3rem;
+  width: 6rem;
+  bottom: 20px;
+  right:30px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color:#633A00;
+  color: #ECF39E;
+  padding-left:10px;
+  padding-right:10px;
+  /* border:2px solid #633A00; */
+  border-radius: 15%;
+  /* display: none; */
+  z-index:2;
+}
+.prev-button{
+  position: absolute;
+  height: 3rem;
+  width: 6rem;
+  bottom: 20px;
+  left:30px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color:#633A00;
+  color: #ECF39E;
+  padding-left:10px;
+  padding-right:10px;
+  /* border:2px solid #633A00; */
+  border-radius: 15%;
+  /* display: none; */
+  z-index:2;
+}
