@@ -4,7 +4,6 @@ import logo from "../pics/treelogo.gif";
 import seed from "../pics/seed.png";
 import seedbox from "../pics/seedbox.jpg";
 import seedling from "../pics/seedling.png";
-import { Link } from "react-router-dom";
 
 function Home(){
     const[isOver,setIsOver]=useState(false);
@@ -35,9 +34,8 @@ function Home(){
             <div className="soil"></div>
             {isOver?
             (
-              <Link to="/Early">
             <button className="next-button"> Next </button>
-            </Link>):(<div/>)}
+            ):(<div/>)}
           </div>
         </div>
       </>
