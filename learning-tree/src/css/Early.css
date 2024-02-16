@@ -27,7 +27,7 @@ body {
   padding: 10px;
   justify-content: space-between;
 }
-img{
+.early-img{
   position: absolute;
     height: 12rem;
     z-index: 2;

@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import "../css/Inter.css";
 import inter from "../pics/intermediate.gif";
+import { Link } from "react-router-dom";
 
 function Inter() {
   const [check1, setIsChecked1] = useState(false);
@@ -154,11 +155,11 @@ function Inter() {
           </div>
         </div>
         {check1 && check2 && check3 ? (
-          <button className="next-button">Next</button>
+        <Link to="/advanced"> <button className="next-button">Next</button> </Link> 
         ) : (
           <div />
         )}
-        <button className="prev-button">Prev</button>
+        <Link to="/early"><button className="prev-button">Prev</button></Link>
       </div>
     </>
   );

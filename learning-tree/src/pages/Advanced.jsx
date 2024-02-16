@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import "../css/Advanced.css";
 import advanced from "../pics/advanced.gif";
+import { Link } from "react-router-dom";
 
 function Advanced() {
   const [check1, setIsChecked1] = useState(false);
@@ -154,11 +155,11 @@ function Advanced() {
           </div>
         </div>
         {check1 && check2 && check3 ? (
-          <button className="next-button">Next</button>
+        <Link to="/contact"><button className="next-button">Next</button></Link> 
         ) : (
           <div />
         )}
-        <button className="prev-button">Prev</button>
+        <Link to="/inter"><button className="prev-button">Prev</button></Link>
       </div>
     </>
   );

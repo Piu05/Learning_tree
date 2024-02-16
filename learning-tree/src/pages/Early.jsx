@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import "../css/Early.css";
 import early from "../pics/early.gif";
+import { Link } from "react-router-dom";
 
 function Early() {
   const [check1, setIsChecked1] = useState(false);
@@ -150,11 +151,11 @@ function Early() {
             </ul>
           </div>
           <div>
-            <img src={early} alt="early stage" />
+            <img className="early-img" src={early} alt="early stage" />
           </div>
         </div>
         {check1 && check2 && check3 ? (
-          <button className="next-button">Next</button>
+        <Link to="/inter">  <button className="next-button">Next</button></Link>
         ) : (
           <div />
         )}
