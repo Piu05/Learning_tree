@@ -22,7 +22,7 @@ function Home(){
             <p className="home-text">
               Let's start your DSA journey by planting a seedling{" "}
             </p>
-            <img className="seed-box" src={seedbox}/>
+            <img className="seed-box" alt="seed-box" src={seedbox}/>
             <img className="seed" src={seed} alt="seed" />
             <img
               className="seedling"

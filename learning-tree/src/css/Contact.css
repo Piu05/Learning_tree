@@ -20,18 +20,40 @@ img{
 }
 .last{
     position: absolute;
-    /* bottom: 40px;
-    right:20px; */
+    bottom: 40px;
+    right:20px;
     height:15rem;
     z-index:2;
 }
-.contact-body{
+/* .contact-body{
    position: absolute;
    
-}
+} */
 .comment-box{
-    position:absolute;
-    width:60rem;
-    height: 20rem;
-    background-color: aquamarine;
+    margin-left: 10vw;
+    width:80vw;
 }
+.comment-text{
+    overflow: hidden;
+    border-right: .15em solid #633A00; 
+    font-size: 1.6rem;
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    width:80vw;
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end ;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #633A00; }
+  }

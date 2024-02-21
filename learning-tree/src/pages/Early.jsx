@@ -24,31 +24,28 @@ function Early() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  DSA Introduction
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/Types.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  DS Types
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/Memory.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Memory
                 </a>
               </li>
-              
+
             </ul>
             <div className="checkbox">
               <input
@@ -60,56 +57,58 @@ function Early() {
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Array.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Basics
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Array_ADT.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Array ADT
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Strings.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Strings
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Polynomial.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Polynomial (A)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Reverse_Array.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Reverse Array
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/SetOperations.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Set Operations
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Array_Practice.cpp"
+                  target="blank"
+                >
+                  Practice Qs
                 </a>
               </li>
             </ul>
@@ -123,29 +122,58 @@ function Early() {
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Linked_List/LinkedList.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Basics
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Linked_List/LinkedList2.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  LL Functions
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Linked_List/Polynomial_LL.cpp"
+                  target="blank"
                 >
-                  DSA Itroduction
+                  Polynomial (LL)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Linked_List/DoublyLinkedList.cpp"
+                  target="blank"
+                >
+                  Doubly LL
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Linked_List/CircularList.cpp"
+                  target="blank"
+                >
+                  Circular List
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Linked_List/SparseMatrix_LL.cpp"
+                  target="blank"
+                >
+                  Sparse Matrix
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Linked_List/LLPractice.cpp"
+                  target="blank"
+                >
+                  Practice Qs
                 </a>
               </li>
             </ul>
@@ -155,7 +183,7 @@ function Early() {
           </div>
         </div>
         {check1 && check2 && check3 ? (
-        <Link to="/inter">  <button className="next-button">Next</button></Link>
+          <Link to="/inter">  <button className="next-button">Next</button></Link>
         ) : (
           <div />
         )}
