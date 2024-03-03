@@ -45,6 +45,22 @@ function Early() {
                   Memory
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/OOP/Class%2BConstructor.cpp"
+                  target="blank"
+                >
+                  OOP
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Pointers/Pointer%2Breference.cpp"
+                  target="blank"
+                >
+                  Pointer
+                </a>
+              </li>
 
             </ul>
             <div className="checkbox">

@@ -18,98 +18,106 @@ function Inter() {
                 type="checkbox"
                 onClick={() => setIsChecked1((check1) => !check1)}
               />
-              Basics
+              Stack
             </div>
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Stack.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Stack(A)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Stack_LL.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Stack(LL)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Infix_Postfix.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Infix to Postfix
                 </a>
               </li>
-              
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Postix_Evaluation.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Postfix Evaluation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/StackPractice.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Practice Qs
+                </a>
+              </li>
             </ul>
             <div className="checkbox">
               <input
                 type="checkbox"
                 onClick={() => setIsChecked2((check2) => !check2)}
               />
-              Arrays
+              Queues
             </div>
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/Queue.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Queue(A)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/Queue_LL.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Queue(LL)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/CircularQueue.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Circular Queue
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/PriorityQueue.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Priority Queue
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/DEqueue.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  DSA Itroduction
+                  Dequeue
                 </a>
               </li>
             </ul>
@@ -118,34 +126,70 @@ function Inter() {
                 type="checkbox"
                 onClick={() => setIsChecked3((check3) => !check3)}
               />
-              Linked List
+              Matrices
             </div>
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/DiagonalMatrix.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Diagonal Matrix
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/SparseMatrix.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Sparse Matrix
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/SymmetricMatrix.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Symmetric Matrix
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/TridiagonalMatrix.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Tridiagonal Matrix
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/LowerTriangularMatrix.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Lower Triangular Matrix
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/UpperTriangularMatrix.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Upper Triangular Matrix
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/ToeplitzMatrix.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Toeplitz Matrix
                 </a>
               </li>
             </ul>

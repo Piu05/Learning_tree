@@ -20,9 +20,9 @@ function Contact() {
         <div className="contact-body">
           <div className="comment-box">
             <p className="comment-text">
-              Congrats! You have completed the concepts of Data Structures and Algorithms 
-              </p>
-            </div>
+              Congrats! You have completed the concepts of Data Structures and Algorithms
+            </p>
+          </div>
           <img className="last" alt="fruit" src={last} />
           {/* <img className="orange" src={orange}/> */}
         </div>
