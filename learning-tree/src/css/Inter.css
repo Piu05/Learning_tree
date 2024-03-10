@@ -2,7 +2,7 @@
 body {
   background-color: #ecf39e;
 }
-.heading {
+/* .heading {
   font-weight: bold;
   font-family: Indie flower;
   font-size: 4.5rem;
@@ -13,13 +13,13 @@ body {
   justify-content: center;
   height: 8%;
   padding-top: 15px;
-}
+} */
 .inter-box {
   position: absolute;
   /* top: 50%; */
   left: 50%;
   transform: translate( -50%);
-  height: 26rem;
+  height: 24rem;
   width: 60rem;
   background-color: #457a3e;
   border-radius:2%;

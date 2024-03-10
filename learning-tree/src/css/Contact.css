@@ -6,7 +6,7 @@ body{
 img{
     height: 6rem;
 }
-.heading{
+/* .heading{
     font-weight: bold;
     font-family: Indie flower;
     font-size: 4.5rem;
@@ -17,7 +17,7 @@ img{
     justify-content: center;
     height: 8%;
     padding-top: 15px;
-}
+} */
 .last{
     position: absolute;
     bottom: 40px;
@@ -29,11 +29,14 @@ img{
    position: absolute;
    
 } */
-.comment-box{
+.result-box{
+    position: absolute;
+    top: 40vh;
     margin-left: 10vw;
     width:80vw;
+    margin-bottom: 20px;
 }
-.comment-text{
+.result-text{
     overflow: hidden;
     border-right: .15em solid #633A00; 
     font-size: 1.6rem;

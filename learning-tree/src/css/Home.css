@@ -15,7 +15,7 @@ img{
     flex-direction: row;
     align-items:flex-start;
     justify-content: center;
-    height: 8%;
+    height: 80px;
     padding-top: 15px;
 }
 .home-body{

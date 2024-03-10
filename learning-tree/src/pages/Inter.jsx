@@ -11,6 +11,11 @@ function Inter() {
     <>
       <div className="main">
         <div className="heading">INTERMEDIATE STAGE</div>
+        <div className="comment-box">
+            <p className="comment-text">
+              Click on the sub-topics to read and check the topic box once completed
+            </p>
+          </div>
         <div className="inter-box">
           <div className="inter-content">
             <div className="checkbox">

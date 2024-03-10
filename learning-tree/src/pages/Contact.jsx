@@ -18,8 +18,8 @@ function Contact() {
           <img src={logo} alt="tree" />
         </div>
         <div className="contact-body">
-          <div className="comment-box">
-            <p className="comment-text">
+          <div className="result-box">
+            <p className="result-text">
               Congrats! You have completed the concepts of Data Structures and Algorithms
             </p>
           </div>

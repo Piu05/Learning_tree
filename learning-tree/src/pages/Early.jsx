@@ -7,10 +7,16 @@ function Early() {
   const [check1, setIsChecked1] = useState(false);
   const [check2, setIsChecked2] = useState(false);
   const [check3, setIsChecked3] = useState(false);
+  const [check4, setIsChecked4] = useState(false);
   return (
     <>
       <div className="main">
         <div className="heading">EARLY STAGE</div>
+        <div className="comment-box">
+            <p className="comment-text">
+              Click on the sub-topics to read and check the topic box once completed
+            </p>
+          </div>
         <div className="early-box">
           <div className="early-content">
             <div className="checkbox">
@@ -133,6 +139,55 @@ function Early() {
                 type="checkbox"
                 onClick={() => setIsChecked3((check3) => !check3)}
               />
+              Recursion
+            </div>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Recursion/Intro.cpp"
+                  target="blank"
+                >
+                  Theory
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Recursion/Indirect_Recursion.cpp"
+                  target="blank"
+                >
+                  Indirect Recursion
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Recursion/Nested_Recursion.cpp"
+                  target="blank"
+                >
+                  Nested Recursion
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Recursion/Tree_Recursion.cpp"
+                  target="blank"
+                >
+                  Tree Recursion
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Recursion/Practice.cpp"
+                  target="blank"
+                >
+                  Practice Qs
+                </a>
+              </li>
+              </ul>
+            <div className="checkbox">
+              <input
+                type="checkbox"
+                onClick={() => setIsChecked4((check4) => !check4)}
+              />
               Linked List
             </div>
             <ul>
@@ -198,7 +253,7 @@ function Early() {
             <img className="early-img" src={early} alt="early stage" />
           </div>
         </div>
-        {check1 && check2 && check3 ? (
+        {check1 && check2 && check3 && check4 ? (
           <Link to="/inter">  <button className="next-button">Next</button></Link>
         ) : (
           <div />

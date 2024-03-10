@@ -11,6 +11,11 @@ function Advanced() {
     <>
       <div className="main">
         <div className="heading">ADVANCED STAGE</div>
+        <div className="comment-box">
+            <p className="comment-text">
+              Click on the sub-topics to read and check the topic box once completed
+            </p>
+          </div>
         <div className="advanced-box">
           <div className="advanced-content">
             <div className="checkbox">
@@ -18,34 +23,70 @@ function Advanced() {
                 type="checkbox"
                 onClick={() => setIsChecked1((check1) => !check1)}
               />
-              Basics
+              Trees
             </div>
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/Tree.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Theory
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BinaryTreeIntro.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                 Binary Tree Theory
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BinaryTree.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                 Binary Tree
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BinarySearchTree.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Binary Search Tree(BST)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BST_Pre.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  BST Preorder
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/AVLTree.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  AVL Tree
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/2-3Trees.cpp"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  2-3 Trees
                 </a>
               </li>
               
@@ -55,97 +96,98 @@ function Advanced() {
                 type="checkbox"
                 onClick={() => setIsChecked2((check2) => !check2)}
               />
-              Arrays
+              Search & Sort
             </div>
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/LinearSearch.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Linear Search
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/BinarySearch.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Binary Search
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Merging.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Merging
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="#"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Merge Sort
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="#"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Insertion Sort
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Sorting.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Sorting Operations
                 </a>
               </li>
+              
             </ul>
             <div className="checkbox">
               <input
                 type="checkbox"
                 onClick={() => setIsChecked3((check3) => !check3)}
               />
-              Linked List
+              Important Topics
             </div>
             <ul>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Heap/Heap.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Heap
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Recursion/TowerOfHanoi.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Tower Of Hanoi
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/Piu05/DSA_Learning/blob/main/DStheory/DS_intro.cpp"
+                  href="https://github.com/Piu05/DSA_Learning/blob/main/Structures/Struct_with_function.cpp"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  DSA Itroduction
+                  Struct vs Class
                 </a>
               </li>
             </ul>
