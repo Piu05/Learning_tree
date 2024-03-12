@@ -29,8 +29,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Stack.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Stack(A)
                 </a>
@@ -38,8 +37,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Stack_LL.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Stack(LL)
                 </a>
@@ -47,8 +45,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Infix_Postfix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Infix to Postfix
                 </a>
@@ -56,8 +53,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/Postix_Evaluation.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Postfix Evaluation
                 </a>
@@ -65,8 +61,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Stack/StackPractice.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Practice Qs
                 </a>
@@ -83,8 +78,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/Queue.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Queue(A)
                 </a>
@@ -92,8 +86,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/Queue_LL.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Queue(LL)
                 </a>
@@ -101,8 +94,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/CircularQueue.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Circular Queue
                 </a>
@@ -110,8 +102,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/PriorityQueue.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Priority Queue
                 </a>
@@ -119,8 +110,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Queue/DEqueue.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Dequeue
                 </a>
@@ -137,8 +127,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/DiagonalMatrix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Diagonal Matrix
                 </a>
@@ -146,8 +135,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/SparseMatrix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Sparse Matrix
                 </a>
@@ -155,8 +143,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/SymmetricMatrix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Symmetric Matrix
                 </a>
@@ -164,8 +151,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/TridiagonalMatrix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Tridiagonal Matrix
                 </a>
@@ -173,8 +159,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/LowerTriangularMatrix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Lower Triangular Matrix
                 </a>
@@ -182,8 +167,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/UpperTriangularMatrix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Upper Triangular Matrix
                 </a>
@@ -191,8 +175,7 @@ function Inter() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Matrices/ToeplitzMatrix.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Toeplitz Matrix
                 </a>

@@ -29,8 +29,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/Tree.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Theory
                 </a>
@@ -38,8 +37,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BinaryTreeIntro.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                  Binary Tree Theory
                 </a>
@@ -47,8 +45,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BinaryTree.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                  Binary Tree
                 </a>
@@ -56,8 +53,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BinarySearchTree.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Binary Search Tree(BST)
                 </a>
@@ -65,8 +61,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/BST_Pre.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   BST Preorder
                 </a>
@@ -74,8 +69,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/AVLTree.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   AVL Tree
                 </a>
@@ -83,8 +77,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Trees/2-3Trees.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   2-3 Trees
                 </a>
@@ -102,8 +95,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/LinearSearch.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Linear Search
                 </a>
@@ -111,8 +103,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/BinarySearch.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Binary Search
                 </a>
@@ -120,8 +111,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Merging.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Merging
                 </a>
@@ -129,8 +119,7 @@ function Advanced() {
               <li>
                 <a
                   href="#"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Merge Sort
                 </a>
@@ -138,8 +127,7 @@ function Advanced() {
               <li>
                 <a
                   href="#"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Insertion Sort
                 </a>
@@ -147,8 +135,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Arrays/Sorting.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Sorting Operations
                 </a>
@@ -166,8 +153,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Heap/Heap.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Heap
                 </a>
@@ -175,8 +161,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Recursion/TowerOfHanoi.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Tower Of Hanoi
                 </a>
@@ -184,8 +169,7 @@ function Advanced() {
               <li>
                 <a
                   href="https://github.com/Piu05/DSA_Learning/blob/main/Structures/Struct_with_function.cpp"
-                  rel="noreferrer"
-                  target="_blank"
+                  target="blank"
                 >
                   Struct vs Class
                 </a>
